@@ -24,11 +24,7 @@
 								<header id="header">
 									<a href="index.html" class="logo"><strong>Jiale Fan's Homepage</strong></a>
 									<ul class="icons">
-										<!-- <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li> -->
-										<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
+										<li><a href="https://www.linkedin.com/in/jiale-fan-86b4b7249/" class="icon brands fa-linkedin" target="_blank"><span class="label">Github</span></a></li>
 									</ul>
 								</header>
 
@@ -37,7 +33,7 @@
 									<header class="main">
 										<h1>Quadruped Control Project</h1>
 									</header>
-									<p>This project was done as part of MICRO 507: Legged Robots course at EPFL.</p>
+									<p>This project was done as part of MICRO 507: Legged Robots course given by Prof. Auke Jan Ijspeert and BioRob at EPFL.</p>
 									<p>Credit: Jiale Fan, Koki Kimura, Lingjun Meng.</p>
 
 									<iframe width="840" height="473" src="https://www.youtube.com/embed/U2CzR62tpWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -54,13 +50,39 @@
 
 									<p>Notably, the reinforcement learning controller we trained had highest votes on best performance, and thus won 
 										the best performance award in the competition held by the Professor and TAs.</p>
+
+									<p>We achieve this by using our customized configuration for reinforcement learning. The keys include 
+										using linear unbounded reward for velocity along desired moving direction, adapting weights to avoid local minimum 
+										and enable gradual learning process, and pre-training on obstacle-free plane.
+									</p>
 									
-									<span class="image main"><img src="images/5_legged_robots/sl1.PNG" alt="" /></span> 
+									<style>
+										figure {
+										  margin: 0;
+										  text-align: center;
+										}
+										figcaption {
+										  font-style: italic;
+										  font-size: 14px;
+										}
+									  </style>
+									  
+									  <figure class="image main">
+										<img src="images/5_legged_robots/sl1.PNG" alt="">
+										<figcaption>Customized training configuration</figcaption>
+									  </figure>
+									  
+									  <figure class="image main">
+										<img src="images/5_legged_robots/sl2.PNG" alt="">
+										<figcaption>Training result report</figcaption>
+									  </figure>
 
-									<span class="image main"><img src="images/5_legged_robots/sl1.PNG" alt="" /></span>
 
+									<!-- <p>For more details, please turn to our report.</p>
 
-									<p>For more details, please turn to our report.</p>
+									<ul class="actions">
+										<li><a href="files/Legged_robots_Project_2.pdf" class="button">PDF Report</a></li>
+									</ul> -->
 									
 
 
@@ -84,13 +106,13 @@
 							</section>
 
 						<!-- Menu -->
-						<nav id="Links">
+						<nav id="menu">
 							<header class="major">
 								<h2>Menu</h2>
 							</header>
 							<ul>
 								<li><a href="index.html">Homepage</a></li>
-								<li><a href="https://www.linkedin.com/in/jiale-fan-86b4b7249/">LinkedIn</a></li>
+								<li><a href="skills.html">skills</a></li>
 								<!-- <li><a href="elements.html">Projects</a></li> -->
 								
 								<!-- <li>
